@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Desktop">
+      <UniqueIdentifier>{5a9cd954-3521-42d3-848d-f8b977becc93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="threatController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threatWatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="id.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidThreatLvlException.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidThreatScException.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="duplicateException.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreatWatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="threats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="invalidThreatLvlException.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>Desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="frame.cpp">
+      <Filter>Desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="invalidThreatScException.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="duplicateException.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

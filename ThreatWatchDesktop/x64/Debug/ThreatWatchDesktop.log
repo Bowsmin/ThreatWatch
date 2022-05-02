@@ -1,0 +1,5 @@
+﻿  frame.cpp
+H:\Users\bowsm\OneDrive\Documents\SchoolWork\Semester 4\Programming\ThreatWatchDesktop\ThreatWatchDesktop\frame.cpp(147,32): warning C4101: 'e': unreferenced local variable
+H:\Users\bowsm\OneDrive\Documents\SchoolWork\Semester 4\Programming\ThreatWatchDesktop\ThreatWatchDesktop\frame.cpp(218,32): warning C4101: 'e': unreferenced local variable
+LINK : warning LNK4044: unrecognized option '/utf-8'; ignored
+  ThreatWatchDesktop.vcxproj -> H:\Users\bowsm\OneDrive\Documents\SchoolWork\Semester 4\Programming\ThreatWatchDesktop\x64\Debug\ThreatWatchDesktop.exe
